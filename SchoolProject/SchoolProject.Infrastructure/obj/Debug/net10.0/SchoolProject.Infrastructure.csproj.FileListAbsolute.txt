@@ -1,0 +1,17 @@
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\bin\Debug\net10.0\SchoolProject.Infrastructure.deps.json
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\bin\Debug\net10.0\SchoolProject.Infrastructure.runtimeconfig.json
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\bin\Debug\net10.0\SchoolProject.Infrastructure.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\bin\Debug\net10.0\SchoolProject.Infrastructure.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\bin\Debug\net10.0\SchoolProject.Data.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\bin\Debug\net10.0\SchoolProject.Data.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.csproj.AssemblyReference.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.AssemblyInfoInputs.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.AssemblyInfo.cs
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.csproj.CoreCompileInputs.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolPr.D35C9431.Up2Date
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\refint\SchoolProject.Infrastructure.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.genruntimeconfig.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\ref\SchoolProject.Infrastructure.dll

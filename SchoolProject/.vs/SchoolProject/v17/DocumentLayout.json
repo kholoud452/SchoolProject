@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.core\\features\\authorization\\commands\\models\\addrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\authorization\\commands\\models\\addrolecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.core\\features\\authorization\\commands\\validation\\addrolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\authorization\\commands\\validation\\addrolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.core\\features\\authorization\\commands\\handlers\\rolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\authorization\\commands\\handlers\\rolecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddRoleCommand.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Models\\AddRoleCommand.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Authorization\\Commands\\Models\\AddRoleCommand.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Models\\AddRoleCommand.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Authorization\\Commands\\Models\\AddRoleCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:33:26.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddRoleValidator.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Validation\\AddRoleValidator.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Authorization\\Commands\\Validation\\AddRoleValidator.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Validation\\AddRoleValidator.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Authorization\\Commands\\Validation\\AddRoleValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:30:38.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleCommandHandler.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\RoleCommandHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\RoleCommandHandler.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\RoleCommandHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\RoleCommandHandler.cs",
+              "ViewState": "AgIAAAUAAAAg/////38pwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T17:29:43.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

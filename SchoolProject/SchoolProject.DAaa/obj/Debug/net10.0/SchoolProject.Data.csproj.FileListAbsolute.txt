@@ -1,0 +1,12 @@
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\bin\Debug\net10.0\SchoolProject.Data.deps.json
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\bin\Debug\net10.0\SchoolProject.Data.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\bin\Debug\net10.0\SchoolProject.Data.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.csproj.AssemblyReference.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.AssemblyInfoInputs.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.AssemblyInfo.cs
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.csproj.CoreCompileInputs.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\refint\SchoolProject.Data.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\ref\SchoolProject.Data.dll

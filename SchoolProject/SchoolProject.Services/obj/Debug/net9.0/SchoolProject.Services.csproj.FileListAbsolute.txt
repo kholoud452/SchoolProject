@@ -1,0 +1,17 @@
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Services.deps.json
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Services.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Services.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Data.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Infrastructure.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Data.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\bin\Debug\net9.0\SchoolProject.Infrastructure.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.csproj.AssemblyReference.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.AssemblyInfoInputs.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.AssemblyInfo.cs
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.csproj.CoreCompileInputs.cache
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolPr.47F5D2AB.Up2Date
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\refint\SchoolProject.Services.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\SchoolProject.Services.pdb
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net9.0\ref\SchoolProject.Services.dll

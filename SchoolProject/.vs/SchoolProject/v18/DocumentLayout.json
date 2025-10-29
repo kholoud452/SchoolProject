@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E6D26C8-EFCD-4095-97CC-459435C33AE2}|SchoolProject.DAaa\\SchoolProject.Data.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.daaa\\helper\\claimssrores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E6D26C8-EFCD-4095-97CC-459435C33AE2}|SchoolProject.DAaa\\SchoolProject.Data.csproj|solutionrelative:schoolproject.daaa\\helper\\claimssrores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.core\\features\\authorization\\queries\\handlers\\claimsqueryhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\authorization\\queries\\handlers\\claimsqueryhandlers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A9A0292-8519-4062-8FAB-53D18D5FF75D}|SchoolProject.API\\SchoolProject.API.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A9A0292-8519-4062-8FAB-53D18D5FF75D}|SchoolProject.API\\SchoolProject.API.csproj|solutionrelative:schoolproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.core\\features\\authorization\\commands\\handlers\\claimscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{853F21E2-96E8-4BB5-9597-8AA22DBB2B8C}|SchoolProject.Core\\SchoolProject.Core.csproj|solutionrelative:schoolproject.core\\features\\authorization\\commands\\handlers\\claimscommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A1EE28-900B-4A00-860E-F97CA3F8FB64}|SchoolProject.Services\\SchoolProject.Services.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.services\\implementabstract\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A1EE28-900B-4A00-860E-F97CA3F8FB64}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\implementabstract\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A1EE28-900B-4A00-860E-F97CA3F8FB64}|SchoolProject.Services\\SchoolProject.Services.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.services\\implementabstract\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A1EE28-900B-4A00-860E-F97CA3F8FB64}|SchoolProject.Services\\SchoolProject.Services.csproj|solutionrelative:schoolproject.services\\implementabstract\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A9A0292-8519-4062-8FAB-53D18D5FF75D}|SchoolProject.API\\SchoolProject.API.csproj|d:\\vsprojects\\schoolprojectyt\\schoolproject\\schoolproject.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A9A0292-8519-4062-8FAB-53D18D5FF75D}|SchoolProject.API\\SchoolProject.API.csproj|solutionrelative:schoolproject.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClaimsSrores.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.DAaa\\Helper\\ClaimsSrores.cs",
+              "RelativeDocumentMoniker": "SchoolProject.DAaa\\Helper\\ClaimsSrores.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.DAaa\\Helper\\ClaimsSrores.cs",
+              "RelativeToolTip": "SchoolProject.DAaa\\Helper\\ClaimsSrores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:45:15.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClaimsQueryHandlers.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Queries\\Handlers\\ClaimsQueryHandlers.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Authorization\\Queries\\Handlers\\ClaimsQueryHandlers.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Queries\\Handlers\\ClaimsQueryHandlers.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Authorization\\Queries\\Handlers\\ClaimsQueryHandlers.cs",
+              "ViewState": "AgIAABQAAAAA/v////8PwCEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:37:53.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClaimsCommandHandler.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\ClaimsCommandHandler.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\ClaimsCommandHandler.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\ClaimsCommandHandler.cs",
+              "RelativeToolTip": "SchoolProject.Core\\Features\\Authorization\\Commands\\Handlers\\ClaimsCommandHandler.cs",
+              "ViewState": "AgIAAAwAAAAglpmZmZkVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:33:18.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Services\\ImplementAbstract\\UserService.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\ImplementAbstract\\UserService.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Services\\ImplementAbstract\\UserService.cs",
+              "RelativeToolTip": "SchoolProject.Services\\ImplementAbstract\\UserService.cs",
+              "ViewState": "AgIAAAcAAAAANjMzMzMbwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:33:58.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SchoolProject.API\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SchoolProject.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:29:11.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "SchoolProject.API\\Program.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.API\\Program.cs",
+              "RelativeToolTip": "SchoolProject.API\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAawFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:45:08.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Services\\ImplementAbstract\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "SchoolProject.Services\\ImplementAbstract\\AuthenticationService.cs",
+              "ToolTip": "D:\\VSProjects\\SChoolProjectYT\\SchoolProject\\SchoolProject.Services\\ImplementAbstract\\AuthenticationService.cs",
+              "RelativeToolTip": "SchoolProject.Services\\ImplementAbstract\\AuthenticationService.cs",
+              "ViewState": "AgIAAFMAAABg/v////8nwFMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:05:40.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
