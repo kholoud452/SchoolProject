@@ -279,4 +279,7 @@
   <data name="DepartmentNotFoundOrDeleted" xml:space="preserve">
     <value>القسم غير موجود او تم حذفه </value>
   </data>
+  <data name="StudentNotFoundOrDeleted" xml:space="preserve">
+    <value>هذا الطالب غير موجود او تم حذفه بالفعل</value>
+  </data>
 </root>

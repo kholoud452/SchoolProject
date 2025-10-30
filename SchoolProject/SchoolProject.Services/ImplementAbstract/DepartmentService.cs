@@ -40,8 +40,9 @@ namespace SchoolProject.Services.ImplementAbstract
                 foreach (var instructor in department.Instructors)
                     instructor.DID = null;
 
-                foreach (var dept_sub in department.DepartmentSubjects)
-                    dept_sub.IsDeleted = true;
+                var departmentSubjects = department.DepartmentSubjects.Where(x => x.DID == department.DID).ToList();
+                _context.DepartmentSubjects.RemoveRange(departmentSubjects);
+                await _context.SaveChangesAsync();
 
                 department.IsDeleted = true;
 

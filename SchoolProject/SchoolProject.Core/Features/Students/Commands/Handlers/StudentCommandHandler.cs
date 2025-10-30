@@ -54,6 +54,8 @@ namespace SchoolProject.Core.Features.Students.Commands.Handlers
             var deletedStudent = await _studentService.DeleteAsync(student);
             if (deletedStudent == $"{student.NameEn} deleted")
                 return Deleted<string>("");
+            else if (deletedStudent == "StudentNotFoundOrDeleted")
+                return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.StudentNotFoundOrDeleted]);
             else return BadRequest<string>();
 
         }

@@ -17,7 +17,7 @@ namespace SchoolProject.Infrastructure.Repositories
 
         public async Task<List<Department>> GetAllAsync()
         {
-            return await _context.Departments.ToListAsync();
+            return await _context.Departments.Where(d => !d.IsDeleted).ToListAsync();
         }
     }
 }

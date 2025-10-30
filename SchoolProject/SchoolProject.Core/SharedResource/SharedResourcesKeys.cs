@@ -58,6 +58,8 @@
         public const string InstructorIsNotExist = "InstructorIsNotExist";
         public const string InstructorIsAlreadyManagerForDept = "InstructorIsAlreadyManagerForDept";
         public const string DepartmentNotFoundOrDeleted = "DepartmentNotFoundOrDeleted";
+        public const string StudentNotFoundOrDeleted = "StudentNotFoundOrDeleted";
+
 
     }
 }

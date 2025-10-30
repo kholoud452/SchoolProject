@@ -10,3 +10,4 @@ D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\refint\SchoolProject.Data.dll
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.pdb
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\ref\SchoolProject.Data.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.DAaa\obj\Debug\net10.0\SchoolProject.Data.sourcelink.json

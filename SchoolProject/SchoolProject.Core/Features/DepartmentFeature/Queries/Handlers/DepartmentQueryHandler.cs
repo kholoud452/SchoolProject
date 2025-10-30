@@ -34,7 +34,7 @@ namespace SchoolProject.Core.Features.DepartmentFeature.Queries.Handlers
         public async Task<Response<GetDepartmentResponse>> Handle(GetDepartmentByIDQuery request, CancellationToken cancellationToken)
         {
             var department = await _departmentService.GetDepartmentByIdAsync(request.Id);
-            if (department == null)
+            if (department == null || department.IsDeleted)
                 return NotFound<GetDepartmentResponse>(_stringLocalizer[SharedResourcesKeys.NotFound]);
 
             var deptMapper = _mapper.Map<GetDepartmentResponse>(department);

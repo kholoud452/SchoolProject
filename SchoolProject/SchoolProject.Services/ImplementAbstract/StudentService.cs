@@ -2,6 +2,7 @@
 using SchoolProject.Data.Entities;
 using SchoolProject.Data.Helper;
 using SchoolProject.Infrastructure.Abstract;
+using SchoolProject.Infrastructure.Data;
 using SchoolProject.Services.Abstract;
 
 namespace SchoolProject.Services.ImplementAbstract
@@ -10,10 +11,13 @@ namespace SchoolProject.Services.ImplementAbstract
         StudentService : IStudentService
     {
         private readonly IStudentRepo _studentRepo;
+        private readonly schoolDBContext _context;
 
-        public StudentService(IStudentRepo studentRepo)
+        public StudentService(IStudentRepo studentRepo,
+            schoolDBContext context)
         {
             _studentRepo = studentRepo;
+            _context = context;
         }
 
         public async Task<string> AddStudent(Student student)
@@ -29,10 +33,19 @@ namespace SchoolProject.Services.ImplementAbstract
             var trans = _studentRepo.BeginTransaction();
             try
             {
-                await _studentRepo.UpdateAsync(student);
-                await _studentRepo.DeleteAsync(student);
+                var studentFromDb = await GetStudentByIDAsync(student.StudID);
+                if (studentFromDb == null || studentFromDb.IsDeleted)
+                    return "StudentNotFoundOrDeleted";
+
+                var studentSubjects = studentFromDb.StudentSubjects.Where(s => s.StudID == studentFromDb.StudID).ToList();
+                _context.StudentSubjects.RemoveRange(studentSubjects);
+                await _context.SaveChangesAsync();
+
+                studentFromDb.IsDeleted = true;
+
+                await _studentRepo.UpdateAsync(studentFromDb);
                 await trans.CommitAsync();
-                return $"{student.NameAr} deleted";
+                return $"{student.NameEn} deleted";
 
             }
             catch (Exception ex)
@@ -50,7 +63,7 @@ namespace SchoolProject.Services.ImplementAbstract
 
         public IQueryable<Student> FilterStudentPaginationQuarable(StudentOrderingEnum orderBy, string search)
         {
-            var quarable = _studentRepo.GetTableNoTracking().AsQueryable();
+            var quarable = _studentRepo.GetTableNoTracking().Where(x => !x.IsDeleted).AsQueryable();
             if (search != null)
             {
                 quarable = quarable.Where(s => s.NameEn.Contains(search) || s.Address.Contains(search));
@@ -81,22 +94,22 @@ namespace SchoolProject.Services.ImplementAbstract
 
         public IQueryable<Student> GetAlLQuarableByDepartmentStudents(int DID)
         {
-            return _studentRepo.GetTableNoTracking().Where(d=> d.DID.Equals(DID)).AsQueryable();
+            return _studentRepo.GetTableNoTracking().Where(d => d.DID.Equals(DID) && !d.IsDeleted).AsQueryable();
         }
 
         public IQueryable<Student> GetAlLQuarableStudents()
         {
-            return _studentRepo.GetTableNoTracking().AsQueryable();
+            return _studentRepo.GetTableNoTracking().Where(s => !s.IsDeleted).AsQueryable();
         }
 
         public async Task<Student> GetStudentByIDAsync(int id)
         {
-            return _studentRepo.GetTableNoTracking().Where(s => s.StudID.Equals(id)).FirstOrDefault();
+            return _studentRepo.GetTableNoTracking().Where(s => s.StudID.Equals(id) && !s.IsDeleted).FirstOrDefault();
         }
 
         public async Task<bool> IsNameExist(string name)
         {
-            if (await _studentRepo.GetTableNoTracking().Where(s => s.NameEn.Equals(name)).FirstOrDefaultAsync() != null)
+            if (await _studentRepo.GetTableNoTracking().Where(s => s.NameEn.Equals(name) & !s.IsDeleted).FirstOrDefaultAsync() != null)
                 return true;
             return false;
 
@@ -104,7 +117,7 @@ namespace SchoolProject.Services.ImplementAbstract
 
         public async Task<bool> IsNameExistExcludeSelf(string name, int id)
         {
-            if (await _studentRepo.GetTableNoTracking().Where(s => s.NameAr.Equals(name) & !s.StudID.Equals(id)).FirstOrDefaultAsync() != null)
+            if (await _studentRepo.GetTableNoTracking().Where(s => s.NameAr.Equals(name) & !s.StudID.Equals(id) & !s.IsDeleted).FirstOrDefaultAsync() != null)
                 return true;
             return false;
         }

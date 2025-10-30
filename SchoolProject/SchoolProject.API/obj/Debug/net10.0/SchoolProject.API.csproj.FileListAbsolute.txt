@@ -182,3 +182,4 @@ D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.pdb
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.genruntimeconfig.cache
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\ref\SchoolProject.API.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.sourcelink.json

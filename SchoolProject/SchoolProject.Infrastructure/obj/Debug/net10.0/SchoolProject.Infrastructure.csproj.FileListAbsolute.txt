@@ -15,3 +15,4 @@ D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Deb
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.pdb
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.genruntimeconfig.cache
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\ref\SchoolProject.Infrastructure.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Infrastructure\obj\Debug\net10.0\SchoolProject.Infrastructure.sourcelink.json

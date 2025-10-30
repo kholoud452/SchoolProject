@@ -24,3 +24,4 @@ D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Core\obj\Debug\net10.0
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Core\obj\Debug\net10.0\refint\SchoolProject.Core.dll
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Core\obj\Debug\net10.0\SchoolProject.Core.pdb
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Core\obj\Debug\net10.0\ref\SchoolProject.Core.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Core\obj\Debug\net10.0\SchoolProject.Core.sourcelink.json

@@ -15,3 +15,4 @@ D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net10.0\refint\SchoolProject.Services.dll
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net10.0\SchoolProject.Services.pdb
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net10.0\ref\SchoolProject.Services.dll
+D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.Services\obj\Debug\net10.0\SchoolProject.Services.sourcelink.json

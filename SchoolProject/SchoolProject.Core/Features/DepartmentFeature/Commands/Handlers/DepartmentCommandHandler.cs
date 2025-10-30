@@ -39,7 +39,7 @@ namespace SchoolProject.Core.Features.DepartmentFeature.Commands.Handlers
         public async Task<Response<string>> Handle(EditDepartmentCommand request, CancellationToken cancellationToken)
         {
             var departmentFromDB = await _departmentService.GetDepartmentByIdAsync(request.DID);
-            if (departmentFromDB == null)
+            if (departmentFromDB == null || departmentFromDB.IsDeleted)
                 return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.DepartmentIsNotExist]);
             var departmentMapper = _mapper.Map(request, departmentFromDB);
             var updatedDepartment = await _departmentService.EditAsync(departmentMapper);

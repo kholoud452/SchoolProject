@@ -279,4 +279,7 @@
   <data name="DepartmentNotFoundOrDeleted" xml:space="preserve">
     <value>Department Not Found Or Deleted</value>
   </data>
+  <data name="StudentNotFoundOrDeleted" xml:space="preserve">
+    <value>Student Not Found Or Deleted</value>
+  </data>
 </root>
