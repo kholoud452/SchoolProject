@@ -282,4 +282,7 @@
   <data name="StudentNotFoundOrDeleted" xml:space="preserve">
     <value>Student Not Found Or Deleted</value>
   </data>
+  <data name="SubjectNotFoundOrDeleted" xml:space="preserve">
+    <value>Subject Not Found Or Deleted</value>
+  </data>
 </root>

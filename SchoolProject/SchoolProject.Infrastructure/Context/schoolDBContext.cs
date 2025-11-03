@@ -28,6 +28,8 @@ namespace SchoolProject.Infrastructure.Data
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<StudentSubject> StudentSubjects { get; set; }
         public virtual DbSet<Subject> Subjects { get; set; }
+        public virtual DbSet<Instructor> Instructor { get; set; }
+        public virtual DbSet<Ins_Subject> Ins_Subject { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

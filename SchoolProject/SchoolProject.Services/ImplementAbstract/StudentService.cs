@@ -12,12 +12,18 @@ namespace SchoolProject.Services.ImplementAbstract
     {
         private readonly IStudentRepo _studentRepo;
         private readonly schoolDBContext _context;
+        private readonly IStudentSubjectRepo _studentSubjectRepo;
+        private readonly ISubjectService _subjectService;
 
         public StudentService(IStudentRepo studentRepo,
-            schoolDBContext context)
+            schoolDBContext context,
+            IStudentSubjectRepo studentSubjectRepo,
+            ISubjectService subjectService)
         {
             _studentRepo = studentRepo;
             _context = context;
+            _studentSubjectRepo = studentSubjectRepo;
+            _subjectService = subjectService;
         }
 
         public async Task<string> AddStudent(Student student)
@@ -28,6 +34,35 @@ namespace SchoolProject.Services.ImplementAbstract
             return "Success";
         }
 
+        public async Task<string> AddStudentSubject(int studentId, List<int> subjectsId)
+        {
+            var transact = await _context.Database.BeginTransactionAsync();
+            try
+            {
+
+                var student = await GetStudentByIDAsync(studentId);
+                if (student == null || student.IsDeleted) return "StudentNotExist";
+
+                foreach (var subjectId in subjectsId)
+                {
+                    var existedSubject = await _subjectService.GetById(subjectId);
+                    if (existedSubject == null || existedSubject.IsDeleted) return "SubjectNotFound";
+                    if (!await _studentSubjectRepo.IsStudentRegisterInSubject(studentId, subjectId))
+                    {
+                        await _studentSubjectRepo.AddAsync(new StudentSubject { StudID = studentId, SubID = subjectId });
+                    }
+                }
+                await _studentRepo.UpdateAsync(student);
+                await transact.CommitAsync();
+                return "SubjectsAddedSuccessFully";
+            }
+            catch (Exception ex)
+            {
+                await transact.RollbackAsync();
+                return "Failed";
+            }
+        }
+
         public async Task<string> DeleteAsync(Student student)
         {
             var trans = _studentRepo.BeginTransaction();
@@ -36,6 +71,7 @@ namespace SchoolProject.Services.ImplementAbstract
                 var studentFromDb = await GetStudentByIDAsync(student.StudID);
                 if (studentFromDb == null || studentFromDb.IsDeleted)
                     return "StudentNotFoundOrDeleted";
+
 
                 var studentSubjects = studentFromDb.StudentSubjects.Where(s => s.StudID == studentFromDb.StudID).ToList();
                 _context.StudentSubjects.RemoveRange(studentSubjects);
@@ -107,15 +143,15 @@ namespace SchoolProject.Services.ImplementAbstract
             return _studentRepo.GetTableNoTracking().Where(s => s.StudID.Equals(id) && !s.IsDeleted).FirstOrDefault();
         }
 
-        public async Task<bool> IsNameExist(string name)
+        public async Task<bool> IsNameExist(string name) //for the add operation
         {
-            if (await _studentRepo.GetTableNoTracking().Where(s => s.NameEn.Equals(name) & !s.IsDeleted).FirstOrDefaultAsync() != null)
+            if (await _studentRepo.GetTableNoTracking().Where(s => s.NameEn.Equals(name) | s.NameAr.Equals(name) & !s.IsDeleted).FirstOrDefaultAsync() != null)
                 return true;
             return false;
 
         }
 
-        public async Task<bool> IsNameExistExcludeSelf(string name, int id)
+        public async Task<bool> IsNameExistExcludeSelf(string name, int id) //for the update operation
         {
             if (await _studentRepo.GetTableNoTracking().Where(s => s.NameAr.Equals(name) & !s.StudID.Equals(id) & !s.IsDeleted).FirstOrDefaultAsync() != null)
                 return true;

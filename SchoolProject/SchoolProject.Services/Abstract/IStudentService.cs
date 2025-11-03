@@ -9,6 +9,7 @@ namespace SchoolProject.Services.Abstract
         public Task<Student> GetStudentByIDAsync(int id);
         public Task<string> EditAsync(Student student);
         public Task<string> AddStudent(Student student);
+        public Task<string> AddStudentSubject(int studentId, List<int> subjectsId);
         public Task<bool> IsNameExist(string name);
         public Task<bool> IsNameExistExcludeSelf(string name, int id);
         public Task<string> DeleteAsync(Student student);

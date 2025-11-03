@@ -9,7 +9,7 @@ namespace SchoolProject.Core.Mapping.StudentMapping
         {
             CreateMap<Student, GetStudentListResponse>().AfterMap((src, dist) =>
             {
-                dist.DName = src != null ? src.Localize(src.Department.DNameAr, src.Department.DNameEn) : "No Department";
+                dist.DName = src?.Department != null ? src.Localize(src.Department.DNameAr, src.Department.DNameEn) : "No Department";
                 dist.Name = src != null ? src.Localize(src.NameAr, src.NameEn) : "No Student";
             }).ReverseMap();
         }

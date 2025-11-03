@@ -8,11 +8,12 @@
         {
             public const string Prefix = root + "Student/";
             public const string List = Prefix + "List";
+            public const string GetByID = Prefix + singleRouter;
             public const string Create = Prefix + "Create";
+            public const string CreateStudentSubject = Prefix + "CreateStudentSubject";
             public const string Edit = Prefix + "Edit";
             public const string Pagination = Prefix + "Pagination";
             public const string Delete = Prefix + singleRouter;
-            public const string GetByID = Prefix + singleRouter;
         }
         public static class DepartmentRouting
         {
@@ -61,6 +62,16 @@
         {
             public const string Prefix = root + "Email/";
             public const string SendEmail = Prefix + "Send-Email";
+        }
+        public static class SubjectRouting
+        {
+            public const string Prefix = root + "Subject/";
+            public const string Create = Prefix + "Create";
+            public const string Edit = Prefix + "Edit";
+            public const string GetAll = Prefix + "GetAll";
+            public const string GetByID = Prefix + singleRouter;
+            public const string Delete = Prefix + singleRouter;
+
         }
     }
 }

@@ -389,7 +389,7 @@
     "ContainingType": "SchoolProject.API.Controllers.DepartmentController",
     "Method": "Delete",
     "RelativePath": "API/V1/Department/{id}",
-    "HttpMethod": "DELETE",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -515,7 +515,7 @@
     "ContainingType": "SchoolProject.API.Controllers.StudentController",
     "Method": "Delete",
     "RelativePath": "API/V1/Student/{id}",
-    "HttpMethod": "DELETE",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -538,6 +538,22 @@
       {
         "Name": "command",
         "Type": "SchoolProject.Core.Features.Students.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.StudentController",
+    "Method": "AddStudentSubjects",
+    "RelativePath": "API/V1/Student/CreateStudentSubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Features.Students.Commands.Models.AddStudentSubjectsCommand",
         "IsRequired": true
       }
     ],
@@ -598,6 +614,80 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.SubjectController",
+    "Method": "GetStudentById",
+    "RelativePath": "API/V1/Subject/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.SubjectController",
+    "Method": "Delete",
+    "RelativePath": "API/V1/Subject/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.SubjectController",
+    "Method": "Craete",
+    "RelativePath": "API/V1/Subject/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Features.SubjectFeatures.Commands.Model.AddSubjectCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.SubjectController",
+    "Method": "Edit",
+    "RelativePath": "API/V1/Subject/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Features.SubjectFeatures.Commands.Model.EditSubjectCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.API.Controllers.SubjectController",
+    "Method": "GetAllStudents",
+    "RelativePath": "API/V1/Subject/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

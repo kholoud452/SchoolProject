@@ -34,6 +34,11 @@ namespace SchoolProject.API.Controllers
         {
             return NewResult(await mediator.Send(command));
         }
+        [HttpPost(Router.StudentRouting.CreateStudentSubject)]
+        public async Task<IActionResult> AddStudentSubjects([FromBody] AddStudentSubjectsCommand command)
+        {
+            return NewResult(await mediator.Send(command));
+        }
         [Authorize(Policy = "Edit")]
         [HttpPut(Router.StudentRouting.Edit)]
         public async Task<IActionResult> Edit([FromBody] EditStudentCommand command)
@@ -41,7 +46,7 @@ namespace SchoolProject.API.Controllers
             return NewResult(await mediator.Send(command));
         }
         [Authorize(Policy = "Delete")]
-        [HttpDelete(Router.StudentRouting.Delete)]
+        [HttpPatch(Router.StudentRouting.Delete)]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             return NewResult(await mediator.Send(new DeleteStudentCommand(id)));

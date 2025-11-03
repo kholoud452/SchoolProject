@@ -59,6 +59,7 @@
         public const string InstructorIsAlreadyManagerForDept = "InstructorIsAlreadyManagerForDept";
         public const string DepartmentNotFoundOrDeleted = "DepartmentNotFoundOrDeleted";
         public const string StudentNotFoundOrDeleted = "StudentNotFoundOrDeleted";
+        public const string SubjectNotFoundOrDeleted = "SubjectNotFoundOrDeleted";
 
 
     }

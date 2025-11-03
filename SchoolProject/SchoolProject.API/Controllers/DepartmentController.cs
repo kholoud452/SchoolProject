@@ -34,7 +34,7 @@ namespace SchoolProject.API.Controllers
             return NewResult(await mediator.Send(command));
         }
         [Authorize(Policy = "Delete")]
-        [HttpDelete(Router.DepartmentRouting.Delete)]
+        [HttpPatch(Router.DepartmentRouting.Delete)]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             return NewResult(await mediator.Send(new DeleteDepartmentCommand(id)));

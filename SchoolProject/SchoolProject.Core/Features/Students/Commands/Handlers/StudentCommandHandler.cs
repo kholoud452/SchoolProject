@@ -12,7 +12,8 @@ namespace SchoolProject.Core.Features.Students.Commands.Handlers
     public class StudentCommandHandler : ResponseHandler,
         IRequestHandler<AddStudentCommand, Response<string>>,
         IRequestHandler<EditStudentCommand, Response<string>>,
-        IRequestHandler<DeleteStudentCommand, Response<string>>
+        IRequestHandler<DeleteStudentCommand, Response<string>>,
+        IRequestHandler<AddStudentSubjectsCommand, Response<string>>
     {
         private readonly IStudentService _studentService;
         private readonly IMapper _mapper;
@@ -58,6 +59,18 @@ namespace SchoolProject.Core.Features.Students.Commands.Handlers
                 return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.StudentNotFoundOrDeleted]);
             else return BadRequest<string>();
 
+        }
+
+        public async Task<Response<string>> Handle(AddStudentSubjectsCommand request, CancellationToken cancellationToken)
+        {
+            var studentSubject = await _studentService.AddStudentSubject(request.StudentId, request.SubjectsId);
+            switch (studentSubject)
+            {
+                case "StudentNotExist": return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.StudentNotFoundOrDeleted]);
+                case "SubjectNotFound": return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.SubjectNotFoundOrDeleted]);
+                case "SubjectsAddedSuccessFully": return Success<string>(_stringLocalizer[SharedResourcesKeys.Success]);
+                default: return BadRequest<string>(_stringLocalizer[SharedResourcesKeys.TryAgain]);
+            }
         }
     }
 }

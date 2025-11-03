@@ -164,7 +164,6 @@ D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.AssemblyInfoInputs.cache
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.AssemblyInfo.cs
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.csproj.CoreCompileInputs.cache
-D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.MvcApplicationPartsAssemblyInfo.cs
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\SchoolProject.API.MvcApplicationPartsAssemblyInfo.cache
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\VSProjects\SChoolProjectYT\SchoolProject\SchoolProject.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
